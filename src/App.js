@@ -1,8 +1,9 @@
 
 import './App.css';
-import { ClickHandler } from './components/ClickHandler';
+// import { ClickHandler } from './components/ClickHandler';
 // import {Greet} from './components/Greet'
-import { Message } from './components/Message'
+// import { Message } from './components/Message'
+import { ParentComponent } from './components/ParentComponent';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
        </Greet> */}
       
       {/* <Message /> */}
-      <ClickHandler/>
+      {/* <ClickHandler/> */}
+      <ParentComponent/>
       
     </div>
   );
