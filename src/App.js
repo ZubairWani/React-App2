@@ -1,9 +1,11 @@
 
 import './App.css';
+import { NameList } from './components/NameList';
 // import { ClickHandler } from './components/ClickHandler';
 // import {Greet} from './components/Greet'
 // import { Message } from './components/Message'
-import { ParentComponent } from './components/ParentComponent';
+// import { ParentComponent } from './components/ParentComponent';
+// import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       
       {/* <Message /> */}
       {/* <ClickHandler/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      {/* <UserGreeting/> */}
+      <NameList/>
       
     </div>
   );
