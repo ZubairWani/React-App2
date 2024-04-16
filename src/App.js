@@ -1,6 +1,9 @@
 
 import './App.css';
-import { Inline } from './components/inline';
+import { Form } from './components/Form';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
+// import { Inline } from './components/inline';
 // import { NameList } from './components/NameList';
 // import { Stylesheet } from './components/Stylesheet';
 // import { ClickHandler } from './components/ClickHandler';
@@ -24,7 +27,11 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
       {/* <Stylesheet/> */}
-      <Inline />
+      {/* <Inline /> */}
+      {/* <h1 className ='error'>Error </h1> */}
+      {/* <h1 className = {styles.success}>Success</h1> */}
+      <Form/>
+      
       
     </div>
   );
