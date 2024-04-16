@@ -1,6 +1,6 @@
 import { useState } from 'react'
 export const Message = (props)=> {
-    const [message, setMessage] =useState('Welcome Visitor')
+    const [message, setMessage] =useState('Welcome Visitor!')
     return (
         
     <div>
