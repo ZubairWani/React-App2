@@ -1,6 +1,8 @@
 
 import './App.css';
-import { NameList } from './components/NameList';
+import { Inline } from './components/inline';
+// import { NameList } from './components/NameList';
+// import { Stylesheet } from './components/Stylesheet';
 // import { ClickHandler } from './components/ClickHandler';
 // import {Greet} from './components/Greet'
 // import { Message } from './components/Message'
@@ -20,7 +22,9 @@ function App() {
       {/* <ClickHandler/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      {/* <Stylesheet/> */}
+      <Inline />
       
     </div>
   );
