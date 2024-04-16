@@ -5,6 +5,6 @@ export const ParentComponent = ()=> {
         alert(`Hello parent ${childName}`)
     }
     
-    return <ChildComponent greetHandler={greetParent} />
+    return <ChildComponent greetHandler={greetParent} />      // here greetHandler is a prop
 }
 
